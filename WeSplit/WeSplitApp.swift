@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct WeSplitApp: App {
+    @StateObject var memberViewModel: MemberViewModel = MemberViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(memberViewModel)
         }
     }
 }
