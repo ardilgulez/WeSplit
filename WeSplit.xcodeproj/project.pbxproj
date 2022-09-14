@@ -14,7 +14,8 @@
 		EC05246928D10966004A44CD /* ChequeFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05246828D10966004A44CD /* ChequeFormView.swift */; };
 		EC05247228D11F48004A44CD /* MemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05247128D11F48004A44CD /* MemberViewModel.swift */; };
 		EC05247528D11F58004A44CD /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05247428D11F58004A44CD /* Member.swift */; };
-		EC05247728D122AB004A44CD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05247628D122AB004A44CD /* GroupView.swift */; };
+		EC1884F928D24FC500F8D7EB /* GroupMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1884F828D24FC500F8D7EB /* GroupMembersView.swift */; };
+		EC1884FC28D256F500F8D7EB /* AddGroupMemberForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1884FB28D256F500F8D7EB /* AddGroupMemberForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,8 @@
 		EC05246828D10966004A44CD /* ChequeFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChequeFormView.swift; sourceTree = "<group>"; };
 		EC05247128D11F48004A44CD /* MemberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewModel.swift; sourceTree = "<group>"; };
 		EC05247428D11F58004A44CD /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
-		EC05247628D122AB004A44CD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		EC1884F828D24FC500F8D7EB /* GroupMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersView.swift; sourceTree = "<group>"; };
+		EC1884FB28D256F500F8D7EB /* AddGroupMemberForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupMemberForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EC05247328D11F4E004A44CD /* Models */,
 				EC05247028D11ECE004A44CD /* ViewModels */,
 				EC05246F28D11EC4004A44CD /* Views */,
+				EC05245C28D107EF004A44CD /* ContentView.swift */,
 				EC05245A28D107EF004A44CD /* WeSplitApp.swift */,
 				EC05245E28D107F1004A44CD /* Assets.xcassets */,
 				EC05246028D107F1004A44CD /* Preview Content */,
@@ -80,9 +83,9 @@
 		EC05246F28D11EC4004A44CD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EC05245C28D107EF004A44CD /* ContentView.swift */,
+				EC1884FA28D256E800F8D7EB /* Components */,
 				EC05246828D10966004A44CD /* ChequeFormView.swift */,
-				EC05247628D122AB004A44CD /* GroupView.swift */,
+				EC1884F828D24FC500F8D7EB /* GroupMembersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +104,14 @@
 				EC05247428D11F58004A44CD /* Member.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EC1884FA28D256E800F8D7EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC1884FB28D256F500F8D7EB /* AddGroupMemberForm.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +186,10 @@
 			files = (
 				EC05247228D11F48004A44CD /* MemberViewModel.swift in Sources */,
 				EC05245D28D107EF004A44CD /* ContentView.swift in Sources */,
-				EC05247728D122AB004A44CD /* GroupView.swift in Sources */,
 				EC05246928D10966004A44CD /* ChequeFormView.swift in Sources */,
+				EC1884F928D24FC500F8D7EB /* GroupMembersView.swift in Sources */,
 				EC05245B28D107EF004A44CD /* WeSplitApp.swift in Sources */,
+				EC1884FC28D256F500F8D7EB /* AddGroupMemberForm.swift in Sources */,
 				EC05247528D11F58004A44CD /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
